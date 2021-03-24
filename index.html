@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <p id="heading">Details Form</p>
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" id="name"></td>
+        </tr>
+        <tr>
+            <td>Mob. No.:</td>
+            <td><input type="number" id="numb"></td>
+        </tr>
+        <tr>
+            <td>Email ID:</td>
+            <td><input type="email" id="email"></td>
+        </tr>
+        <tr>
+            <td>
+            </td>
+            <td><button type="submit" onclick="additem()" id="btn1">SUBMIT</button></td>
+        </tr>
+    </table>
+    <hr>
+    <div>
+        <table id="additems" border="1">
+            <tr>
+                <td>Name</td>
+                <td>Mob No.</td>
+                <td>Email Id.</td>
+            </tr>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+body {
+    background-color: skyblue;
+    border: 10px rgb(10, 10, 10);
+    padding: 50px;
+    margin: 20px;
+}
+
+#heading {
+    text-decoration: underline;
+    width: 200px;
+    text-align: center;
+}
+
+#btn1 {
+    background-color: sandybrown;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+}
+
+input {
+    width: 200px;
+}
+
+#additems {
+    visibility: hidden;
+}
