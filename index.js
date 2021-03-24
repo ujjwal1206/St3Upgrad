@@ -15,7 +15,7 @@ function additem() {
     } else if (!email.match(reg)) {
         alert("Invalid email");
     } else {
-        additem.innerHTML += "<tr><td>" + name + "</td><td>" + numb + "</td><td>" + email + "</td><td><button onclick=\"abc()\">Delete</button></td></tr></table>";
+        additem.innerHTML += "<tr><td id=\"column-down\">" + name + "</td><td id=\"column-down\">" + numb + "</td><td id=\"column-down\">" + email + "</td><td><button onclick=\"abc()\" id=\"btn2\">Delete</button></td></tr></table>";
     }
 }
 

@@ -18,10 +18,19 @@ body {
     cursor: pointer;
 }
 
+#btn2 {
+    background-color: lightslategray;
+    cursor: pointer;
+}
+
 input {
     width: 200px;
 }
 
 #additems {
     visibility: hidden;
+}
+
+#column-down {
+    background-color: mediumpurple;
 }
